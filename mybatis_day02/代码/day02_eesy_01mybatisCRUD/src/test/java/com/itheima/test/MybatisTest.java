@@ -67,11 +67,11 @@ public class MybatisTest {
     @Test
     public void testSave(){
         User user = new User();
-        user.setUserName("modify User property");
-        user.setUserAddress("北京市顺义区");
+        user.setUserName("xiaoxin");
+        user.setUserAddress("北京市朝阳区");
         user.setUserSex("男");
         user.setUserBirthday(new Date());
-        System.out.println("保存操作之前："+user);
+        System.out.println("保存操作之前："+user);  // 保存之前是id=null  保存之后返回id
         //5.执行保存方法
         userDao.saveUser(user);
 
@@ -84,7 +84,7 @@ public class MybatisTest {
     @Test
     public void testUpdate(){
         User user = new User();
-        user.setUserId(50);
+        user.setUserId(49);
         user.setUserName("mybastis update user");
         user.setUserAddress("北京市顺义区");
         user.setUserSex("女");
@@ -109,7 +109,7 @@ public class MybatisTest {
     @Test
     public void testFindOne(){
         //5.执行查询一个方法
-        User  user = userDao.findById(50);
+        User  user = userDao.findById(49);
         System.out.println(user);
     }
 

@@ -23,7 +23,7 @@ public class UserDaoImpl implements IUserDao {
     public List<User> findAll() {
         //1.根据factory获取SqlSession对象
         SqlSession session = factory.openSession();
-        //2.调用SqlSession中的方法，实现查询列表
+        //2.调用SqlSession中的方法，实现查询列表  (没有通过动态代理的方法执行)
         List<User> users = session.selectList("com.itheima.dao.IUserDao.findAll");//参数就是能获取配置信息的key
         //3.释放资源
         session.close();
@@ -82,7 +82,7 @@ public class UserDaoImpl implements IUserDao {
         //1.根据factory获取SqlSession对象
         SqlSession session = factory.openSession();
         //2.调用SqlSession中的方法，实现查询列表
-        List<User> users = session.selectList("com.itheima.dao.IUserDao.findByName",username);
+        List<User> users = session.selectList("com.itheima.dao.IUserDao.findByName", username);
         //3.释放资源
         session.close();
         return users;
@@ -97,5 +97,10 @@ public class UserDaoImpl implements IUserDao {
         //3.释放资源
         session.close();
         return count;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }

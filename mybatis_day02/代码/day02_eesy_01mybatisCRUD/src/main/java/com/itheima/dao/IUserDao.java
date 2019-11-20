@@ -14,8 +14,8 @@ import java.util.List;
 public interface IUserDao {
 
     /**
-     * 查询所有用户
-     * @return
+     * 查询所有的用户
+     * @param
      */
     List<User> findAll();
 

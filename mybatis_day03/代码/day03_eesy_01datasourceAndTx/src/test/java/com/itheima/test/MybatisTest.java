@@ -33,7 +33,7 @@ public class MybatisTest {
         in = Resources.getResourceAsStream("SqlMapConfig.xml");
         //2.获取SqlSessionFactory
         SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(in);
-        //3.获取SqlSession对象
+        //3.获取SqlSession对象  autoCommit: true 自动提交事务  保证每次的一个增删改查都在close连接之前commit
         sqlSession = factory.openSession(true);
         //4.获取dao的代理对象
         userDao = sqlSession.getMapper(IUserDao.class);
@@ -42,7 +42,7 @@ public class MybatisTest {
     @After//用于在测试方法执行之后执行
     public void destroy()throws Exception{
         //提交事务
-       // sqlSession.commit();
+       // sqlSession.commit();  // factory.openSession(true); 设置的事务的自动提交
         //6.释放资源
         sqlSession.close();
         in.close();

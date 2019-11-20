@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.itheima.dao.IUserDao">
 
-    <!-- 配置 查询结果的列名和实体类的属性名的对应关系 -->
+    <!-- 配置 查询结果的列名和实体类的属性名的对应关系  查询的时候不需要使用resultType属性 直接使用resultMap属性即可-->
     <resultMap id="userMap" type="uSeR">
         <!-- 主键字段的对应 -->
         <id property="userId" column="id"></id>
@@ -24,7 +24,7 @@
 
     <!-- 保存用户 -->
     <insert id="saveUser" parameterType="user">
-        <!-- 配置插入操作后，获取插入数据的id -->
+        <!-- 配置插入操作后，获取插入数据的id   keyProperty对应的是实体类中的属性名称 必须保持一致-->
         <selectKey keyProperty="userId" keyColumn="id" resultType="int" order="AFTER">
             select last_insert_id();
         </selectKey>
@@ -33,15 +33,15 @@
 
     <!-- 更新用户 -->
     <update id="updateUser" parameterType="USER">
-        update user set username=#{userName},address=#{userAddress},sex=#{userAex},birthday=#{userBirthday} where id=#{userId}
+        update user set username=#{userName},address=#{userAddress},sex=#{userSex},birthday=#{userBirthday} where id=#{userId}
     </update>
 
-    <!-- 删除用户-->
+    <!-- 删除用户  对于参数只有一个整形的 此处的占位符uid命名是可以随便写的 不一定是userId-->
     <delete id="deleteUser" parameterType="java.lang.Integer">
         delete from user where id = #{uid}
     </delete>
-    
-    <!-- 根据id查询用户 -->
+
+    <!-- 根据id查询用户 此处的参数类型是INT 整形 他的占位符也是可以随意定义的-->
     <select id="findById" parameterType="INT" resultMap="userMap">
         select * from user where id = #{uid}
     </select>
@@ -57,8 +57,8 @@
         select count(id) from user;
     </select>
 
-    <!-- 根据queryVo的条件查询用户 -->
+    <!-- 根据queryVo的条件查询用户 可以实现多个对象联合查询sql语句 -->
     <select id="findUserByVo" parameterType="com.itheima.domain.QueryVo" resultMap="userMap">
-        select * from user where username like #{user.username}
+        select * from user where username like #{user.userName}
     </select>
 </mapper>
