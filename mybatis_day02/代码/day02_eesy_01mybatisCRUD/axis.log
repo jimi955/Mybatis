@@ -495,3 +495,50 @@
 2018-06-12 13:21:11,965 581    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5bfbf16f]
 2018-06-12 13:21:11,966 582    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5bfbf16f]
 2018-06-12 13:21:11,966 582    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1543237999 to pool.
+2019-11-21 12:03:56,958 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 12:04:56,985 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 12:05:37,247 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 12:06:59,690 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 12:06:59,775 85     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-11-21 12:06:59,775 85     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-11-21 12:06:59,775 85     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-11-21 12:06:59,776 86     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-11-21 12:06:59,776 86     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-11-21 12:06:59,777 87     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/domain
+2019-11-21 12:06:59,777 87     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/domain
+2019-11-21 12:06:59,815 125    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2019-11-21 12:06:59,816 126    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-11-21 12:06:59,816 126    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/domain
+2019-11-21 12:06:59,816 126    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/domain/QueryVo.class
+2019-11-21 12:06:59,816 126    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/domain/QueryVo.class
+2019-11-21 12:06:59,817 127    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2019-11-21 12:06:59,818 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/domain/User.class
+2019-11-21 12:06:59,818 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/domain/User.class
+2019-11-21 12:06:59,819 129    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 N
+2019-11-21 12:06:59,819 129    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2019-11-21 12:06:59,820 130    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2019-11-21 12:06:59,854 164    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 12:06:59,854 164    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 12:06:59,854 164    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 12:06:59,854 164    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 12:06:59,857 167    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/dao
+2019-11-21 12:06:59,857 167    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/dao
+2019-11-21 12:06:59,857 167    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-11-21 12:06:59,858 168    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-11-21 12:06:59,858 168    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/dao
+2019-11-21 12:06:59,858 168    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/dao/IUserDao.class
+2019-11-21 12:06:59,858 168    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/dao/IUserDao.class
+2019-11-21 12:06:59,859 169    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; saveUser (Lcom/itheima/domain/User;)V 
+2019-11-21 12:06:59,859 169    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/dao/IUserDao.xml
+2019-11-21 12:06:59,859 169    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/java/mybatis/mybatis_day02/%e4%bb%a3%e7%a0%81/day02_eesy_01mybatisCRUD/target/classes/com/itheima/dao/IUserDao.xml
+2019-11-21 12:06:59,860 170    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-11-21 12:06:59,860 170    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.dao.IUserDao matches criteria [is assignable to Object]
+2019-11-21 12:06:59,962 272    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 12:07:01,232 1542   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1278677872.
+2019-11-21 12:07:01,232 1542   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4c371370]
+2019-11-21 12:07:01,235 1545   [           main] DEBUG eima.dao.IUserDao.findUserByVo  - ==>  Preparing: select * from user where username like ? 
+2019-11-21 12:07:01,268 1578   [           main] DEBUG eima.dao.IUserDao.findUserByVo  - ==> Parameters: %王%(String)
+2019-11-21 12:07:01,297 1607   [           main] DEBUG eima.dao.IUserDao.findUserByVo  - <==      Total: 2
+2019-11-21 12:07:01,301 1611   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4c371370]
+2019-11-21 12:07:01,302 1612   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4c371370]
+2019-11-21 12:07:01,302 1612   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1278677872 to pool.

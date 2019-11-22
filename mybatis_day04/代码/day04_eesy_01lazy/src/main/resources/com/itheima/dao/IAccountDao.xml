@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.itheima.dao.IAccountDao">
 
-    <!-- 定义封装account和user的resultMap   注:16行 javaType="user"  可以不写  因为前面三个都没有写参数的类型  应该是参考type="account"中的account进行封装的  因此user的类型为User应该也知道 不需要传入-->
+    <!-- 定义封装account和user的resultMap   注:16行 javaType="user"  可以不写  因为select 指定的方法中有 不需要传入-->
     <resultMap id="accountUserMap" type="account">
         <id property="id" column="id"></id>
         <result property="uid" column="uid"></result>

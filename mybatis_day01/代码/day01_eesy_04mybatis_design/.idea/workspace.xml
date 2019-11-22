@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feac7883-48b3-434b-a51e-330ebc0496b2" name="Default" comment="" />
+    <list default="true" id="feac7883-48b3-434b-a51e-330ebc0496b2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../mybatis_day02/代码/day02_eesy_01mybatisCRUD/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01_eesy_03mybatis_dao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day01_eesy_03mybatis_dao/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01_eesy_03mybatis_dao/axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/../day01_eesy_03mybatis_dao/axis.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mybatis/annotations/Select.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mybatis/cfg/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mybatis/cfg/Mapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mybatis/io/Resources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mybatis/sqlsession/SqlSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mybatis/sqlsession/SqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mybatis/sqlsession/SqlSessionFactoryBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mybatis/sqlsession/defaults/DefaultSqlSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mybatis/sqlsession/defaults/DefaultSqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mybatis/sqlsession/proxy/MapperProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mybatis/utils/DataSourceUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mybatis/utils/Executor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/mybatis/utils/XMLConfigBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/itheima/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day02/代码/day02_eesy_01mybatisCRUD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mybatis_day02/代码/day02_eesy_01mybatisCRUD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day02/代码/day02_eesy_01mybatisCRUD/target/classes/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day02/代码/day02_eesy_01mybatisCRUD/target/classes/com/itheima/dao/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day02/代码/day02_eesy_01mybatisCRUD/target/classes/com/itheima/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day02/代码/day02_eesy_01mybatisCRUD/target/classes/com/itheima/domain/QueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day02/代码/day02_eesy_01mybatisCRUD/target/classes/com/itheima/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day02/代码/day02_eesy_01mybatisCRUD/target/classes/jdbcConfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day02/代码/day02_eesy_01mybatisCRUD/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day02/代码/day02_eesy_01mybatisCRUD/target/test-classes/com/itheima/test/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_01lazy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_01lazy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_01lazy/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_01lazy/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_01lazy/target/classes/com/itheima/dao/IAccountDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_01lazy/target/classes/com/itheima/dao/IAccountDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_01lazy/target/classes/com/itheima/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_01lazy/target/classes/com/itheima/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_02cache/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_02cache/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_03annotation_mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_03annotation_mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_04annoOne2Many/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_04annoOne2Many/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_04annoOne2Many/target/classes/com/itheima/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mybatis_day04/代码/day04_eesy_04annoOne2Many/target/classes/com/itheima/dao/IUserDao.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,49 +60,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/defaults/DefaultSqlSession.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/itheima/dao/IUserDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="32" column="53" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/itheima/dao/IUserDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/test/MybatisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="396">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/ParameterizedType.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/defaults/DefaultSqlSessionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
-              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="40" />
+              <folding>
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/SqlSessionFactoryBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="484">
               <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,19 +112,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/dao/IUserDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/SqlSessionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="264">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/SqlSession.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1914">
-              <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+            <state relative-caret-position="352">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/dao/IUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -124,6 +166,9 @@
         <option value="AnnotationType" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -173,10 +218,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
-    <option name="y" value="2" />
-    <option name="width" value="2580" />
-    <option name="height" value="1530" />
+    <option name="x" value="354" />
+    <option name="y" value="-1088" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -201,11 +246,13 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,7 +374,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -335,7 +381,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574058012353" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../mybatis_day02/代码/day02_eesy_01mybatisCRUD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../mybatis_day02/代码/day02_eesy_01mybatisCRUD" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -561,17 +607,18 @@
       <workItem from="1574051941079" duration="4634000" />
       <workItem from="1574066595614" duration="749000" />
       <workItem from="1574143280450" duration="745000" />
+      <workItem from="1574260111789" duration="655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19353000" />
+    <option name="totallyTimeSpent" value="20008000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
+    <frame x="354" y="-1088" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3117409" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -591,7 +638,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Problems" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -714,20 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/SqlSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/SqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/proxy/MapperProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
@@ -746,17 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/defaults/DefaultSqlSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -791,13 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/utils/XMLConfigBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4290">
@@ -812,6 +827,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/defaults/DefaultSqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -823,23 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/SqlSessionFactoryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -864,17 +872,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/test/MybatisTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/defaults/DefaultSqlSessionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="506">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/defaults/DefaultSqlSession.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/SqlSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="53" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="53" />
+        <state relative-caret-position="352">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/SqlSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/mybatis/sqlsession/SqlSessionFactoryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -884,7 +910,28 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/itheima/dao/IUserDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/test/MybatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
         </state>
       </provider>
     </entry>

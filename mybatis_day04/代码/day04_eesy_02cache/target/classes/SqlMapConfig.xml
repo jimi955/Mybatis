@@ -6,7 +6,7 @@
     <!-- 配置properties-->
     <properties resource="jdbcConfig.properties"></properties>
 
-    <!--支持二级缓存-->
+    <!--支持二级缓存  默认是开启的  可以不用配置  但要知道-->
     <settings>
         <setting name="cacheEnabled" value="true"/>
     </settings>
