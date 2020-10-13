@@ -32,7 +32,7 @@
             <!--单元测试 需要在resource下面配置log4j.properties -->
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.10</version>
+            <version>4.13.1</version>
         </dependency>
     </dependencies>
 </project>
